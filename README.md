@@ -168,7 +168,7 @@ NEXT_PUBLIC_API_BASE_URL
 - Set environment variables in project settings.
 - Click Deploy.
 
-### Hugginface (Backend)
+### Huggingface (Backend)
 - Upload the backend project to huggingface spaces
 - Test the public api built
 
