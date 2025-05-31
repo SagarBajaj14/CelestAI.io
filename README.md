@@ -172,7 +172,8 @@ NEXT_PUBLIC_API_BASE_URL
 - Upload the backend project to huggingface spaces
 - Test the public api built
 
-### Link to Live Website: https://celestai-sigma.vercel.app/
+### Link to Live Website: https://celestai-sigma.vercel.app/, https://celestai-sigma.vercel.app/dashboard
+
 
 ## 🎥 Demo
 
