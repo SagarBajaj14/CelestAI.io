@@ -177,4 +177,4 @@ NEXT_PUBLIC_API_BASE_URL
 
 ## 🎥 Demo
 
-- Check out the live demo video showcasing the chatbot in action: 
+- Check out the live demo video showcasing the chatbot in action: https://drive.google.com/file/d/18-qWe5B3bbiJrM6LPks5fOAbzxeQvVuc/view?usp=sharing
