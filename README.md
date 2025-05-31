@@ -114,9 +114,9 @@ NEXT_PUBLIC_API_BASE_URL
  - /register_user: Registers the user with user id
  - /get_user: Retrieves the info of user
  - /generate_chart: Generates astrological chart for the user
- - dailty_horoscope: Provide daily horoscope to the user
- - personalized_insights: Provides tailored insights based on position of stars and houses
- - ask_astrologer: Personalized chatbot for queries
+ - /daily_horoscope: Provide daily horoscope to the user
+ - /personalized_insights: Provides tailored insights based on position of stars and houses
+ - /ask_astrologer: Personalized chatbot for queries
 
 <img src="https://github.com/user-attachments/assets/fa37e5cd-6325-4b6a-b185-746b652f5bb3" width="500" />
 
