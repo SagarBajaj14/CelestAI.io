@@ -4,8 +4,6 @@ An AI-powered chatbot that delivers personalized astrological insights and predi
 
 ## 🧩 Table of Contents
 
-## 🧩 Table of Contents
-
 1. Features
 2. Architecture
 3. Tech Stack
@@ -34,6 +32,37 @@ An AI-powered chatbot that delivers personalized astrological insights and predi
 ---
 
 ## 🏗 Architecture
+
+The architecture of CelestAI.io is a clean modern full-stack setup consisting of three primary components:
+
+### Frontend (Next.js + React):
+- Built with Next.js for fast, server-side rendered and static web pages.
+- Uses React components enhanced by Framer Motion for fluid animations.
+- Presents an interface where users input:
+   - Name
+   - Country of Origin
+   - DateTime of Birth
+- It then sends this data to the backend via API calls.
+
+### Backend (FastAPI + Pydantic + External APIs):
+- Built using FastAPI for high-performance asynchronous APIs.
+- Data validation is handled using Pydantic.
+- Acts as the middleware that:
+   - Receives birth details and user prompts from frontend
+   - Sends these details to:
+        - 🪐 VedAstro API (for astrological chart + insights)
+        - 🧠 Groq API / Llama (for intelligent interpretation and chat)
+   - Collects and formats responses
+   - Sends the final insights back to the frontend
+     
+### Database (Supabase)
+- Uses Supabase for PostgreSQL-based data management.
+- Stores:
+   - Registered users
+   - Query history
+   - Astrological chart
+   - Compatibility
+- Also provides authentication and media storage.
 
 ```text
 ┌───────────────┐       ┌─────────────┐       ┌───────────────┐
@@ -108,6 +137,7 @@ NEXT_PUBLIC_API_BASE_URL
 ### 🌌 Astrology API
 
 #### Provider: VedAstro
+- Provides Vedic astrology data by analyzing planetary positions, houses, and star alignments based on user birth info.
 
 #### Endpoints:
 
